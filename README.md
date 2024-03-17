@@ -3,6 +3,9 @@
 ## Author
 Sami Mnif - 101199669
 
+## Video Demo Link
+YouTube: https://youtu.be/VolAEBK_Qe4
+
 ## Details
 ### Table Creation
 For this Assignment, we need to create a database and initialize it with some data.

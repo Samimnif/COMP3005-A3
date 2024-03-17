@@ -1,5 +1,6 @@
 /**
  * Assignment 3 Q1
+ * Sami Mnif - 101199669
  *
  * In this class, we defined 4 functions:
  * - `getAllStudents()`: Retrieves and displays all records from the students table.
@@ -159,12 +160,19 @@ public class Main {
             throw new RuntimeException(e);
         }
     }
+
+    /**
+     * Edit According to the function you want to invoke
+     * The main obj is used to call the functions.
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         Main main = new Main();
         main.getAllStudents();
         //main.addStudent("Sami", "Mnif", "sami_email@carleton.ca", "2020-05-01");
-        //main.updateStudentEmail(4, "samimnif@icloud.com");
-        main.deleteStudent(4);
-        main.getAllStudents();
+        //main.updateStudentEmail(4, "samimnif@sce.com");
+        //main.deleteStudent(2);
+        //main.getAllStudents();
     }
 }
